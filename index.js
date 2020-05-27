@@ -58,7 +58,7 @@ io.on('connect', (socket) => {
     });
 
 
-    //Socket Disconnect
+    //Socket Disconnect Function
     socket.on('disconnect', () => {
         const user = removeUser(socket.id)
 
